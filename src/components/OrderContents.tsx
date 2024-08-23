@@ -1,7 +1,7 @@
 import { formatCurrency } from "../helpers"
 import { MenuItem, OrderItem } from "../types"
 
-type OrderContentsProps = {
+type OrderContentsProps = { 
     order: OrderItem[],
     removeItem: (id: MenuItem['id']) => void
 }

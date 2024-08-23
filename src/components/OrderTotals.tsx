@@ -5,7 +5,7 @@ import { formatCurrency } from "../helpers"
 type OrderTotalsProps = {
     order: OrderItem[],
     tip: number,
-    placeOrder: () => void
+    placeOrder: () => void 
 }
 
 export default function OrderTotals({order, tip, placeOrder} : OrderTotalsProps) {

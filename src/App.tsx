@@ -5,7 +5,7 @@ import TipPercentageForm from "./components/TipPercentageForm"
 import { menuItems } from "./data/db"
 import useOrder from "./hooks/useOrder"
 
-function App() {
+function App() { 
 
   const { order, tip, setTip, addItem, removeItem, placeOrder } = useOrder()
 
